@@ -9,7 +9,14 @@ Node.js 18 or higher
 
 ## Usage
 
-Clone this repository and run the following command in the top directory.
+Clone this repository and put .env file to the top directory with following contents.
+
+```.env
+BSKY_IDENTIFIER=<Your handle or DID>
+BSKY_PASSWORD=<Your app password>
+```
+
+Then following command shows you a recommendation list.
 
 ```
 $ npx ts-node cli.ts
